@@ -1,0 +1,62 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+body {
+  font-family:'Open Sans', sans-serif;
+
+  /* background-image:url("Fingerprint.png");
+  background-repeat: repeat; */
+  background-color: rgb(244, 224, 247);
+  color: #09095e;
+  
+  
+}
+#cssmenu {
+  background: #09095e;;
+  width: auto;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: right;
+  display: block;
+  padding: 15px 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  /* text-transform: uppercase; */
+  font-size: 20px;
+  position: relative;
+  
+}
+.container{
+  max-width: 900px;
+  
+  margin: 0 auto;
+  color: #09095e;
+  font-family: san serif;
+}
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover:not(.active) {
+  color: rgb(149, 31, 134);
+}
+
+.active {
+  color:rgb(149, 31, 134);;
+}
+img.homeimage {
+  width: 40%;
+  height: auto;
+  float: right;
+}

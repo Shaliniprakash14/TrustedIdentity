@@ -1,0 +1,30 @@
+{
+  "name": "eth-India-One",
+  "version": "1.0.0",
+  "description": "Blockchain Identity verification Powered By Ethereum",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && sexit 1"
+  },
+  "author": "Tech Amazons",
+  "license": " ",
+  "devDependencies": {
+    "bootstrap": "4.1.3",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^2.0.2",
+    "lite-server": "^2.3.0",
+    "md5": "^2.2.1",
+    "nodemon": "^1.17.3",
+    "truffle-contract": "3.0.6"
+  },
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "url": "^0.11.0"
+  }
+}

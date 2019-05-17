@@ -1,0 +1,14 @@
+{
+    "server": {
+      "baseDir": [
+        "./src",
+        "./build/contracts"
+      ],
+      "serveStaticOptions": {
+        "extensions": ["html","js","css"]
+    },
+      "routes": {
+        "/vendor": "./node_modules"
+      }
+    }
+  }
